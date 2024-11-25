@@ -1,0 +1,19 @@
+Programs on While loop:
+==========================================================
+
+1.write a java program to count number of digits of a number.
+2.Write a java program to print sum of digits of a number.
+3.Write a java program to reverse a number.
+4.write a java program to check palindrome or not.
+5.Write a java program to print sum of squares of a number 
+6.Write a java program to print sum of cubes of a number 
+7.Write a java program to add 1st and last digit of a number.
+8.Write a jave program to check number is Armstrong or not.
+9.Write a java program to check number is strong or not.
+10. Write a java program to print 5 table
+
+
+
+
+
+

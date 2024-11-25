@@ -1,0 +1,74 @@
+1.How do you take screenshot in selenium? 
+   ans: To capture a screenshot in Selenium WebDriver, you can use the TakesScreenshot interface and its getScreenshotAs() method. and this screenshot is save as file object and to copy the screenshot file to the specified destination we have to use FileUtils class .
+2. Synchronization in selenium?
+  Ans: Synchronization is the process of ensuring that the automation script interacts with web elements and the web application in a stable and reliable manner, even when there are variations in the speed of loading elements on a web page. there are two main type of Synchronization techniques 
+	1. Implicit and Explicit 
+3. Testng concepts?
+ ans: TestNG is a popular testing framework for Java that is widely used for test automation in various software development projects. some important concepts and features of TestNG: 
+	1.Test Annotations 
+	2.Test Suites 
+	3.Test Prioritization 
+	4.Dependency Management
+	5.Parallel Execution 
+	6.Parameterization 
+	7.Data Providers 
+	8.Listeners 
+	9.Grouping 
+	10.Assertions 
+	11.Reporting 
+4. What is data driven testing in selenium? 
+ans: Data-driven testing in Selenium is an approach where test cases are executed multiple times with different sets of data. It is is particularly useful for testing the same functionality with a variety of data combinations without having to write separate test cases for each data set.
+5. Page Object Model framework? 
+ans: It is a design pattern used to organize and manage the elements and interactions of a web application's user interface within an automation testing framework. The main idea behind the Page Object Model is to represent each page of a web application as a separate class, where the class contains the elements present on that page and the methods to interact with those elements. 
+6. What is Maven? 
+ans: Maven is a project management tool and It simplifies the process of building, managing, and distributing Java projects, along with their dependencies.To use Maven, you create a pom.xml file that defines the project's metadata, dependencies, plugins, and other configurations. 
+7. How to fetch data from excel sheet in selenium? 
+ans: To fetch data from an Excel sheet in Selenium, you can use a combination of the Apache POI library and the Page Object Model (POM) design pattern. 1. add apache poi dependency in pom.xml file 2.HSSFWorkbook is used to work with Excel files in the older .xls format, which is based on the Binary Excel File Format. 3.XSSFWorkbook is used to work with Excel files in the newer .xlsx format, which is based on the Office Open XML (OOXML) format. 8. How can you execute multiple test cases in testng parallely? ans: To execute multiple test cases in parallel, you can use the parallel attribute in the <suite> tag of your TestNG XML configuration file. The parallel attribute can take values like "methods", "classes", or "tests", depending on how you want to parallelize the execution. 
+9. How to differentiate, while clicking a red colour button and a green colour button in selenium?
+ans: To differentiate between clicking a red color button and a green color button in Selenium, you need to identify these buttons based on their unique properties or attributes. Usually, HTML elements have attributes such as id, class, name, xpath, cssSelector, etc.
+10. What is selenium grid?
+ans: Selenium Grid is a component of the Selenium testing framework that enables you to distribute and run test scripts across multiple browsers, operating systems, and machines in parallel. i.e we can do cross browser testing ,cross-platform testing etc. 
+11. What is static method and static variable?
+ans: static methods are such method which does not depends upon object.This method can directly called by using class name. It can't access instance variables or instance methods directly.It can access only static variables and static methods. static variable:There is only one copy of a static variable shared among all instances of the class. Static variables are commonly used to store data that is shared across all instances of the class. static variable can be access directly by using class name.
+12. Difference in final, finalize and finally?
+ans: final keyword: When applied to a variable, it indicates that the variable's value cannot be changed after initialization. When applied to a method, it prevents the method from being overridden by subclasses. When applied to a class, it prevents the class from being subclassed. finalize keyword: It's used for cleanup operations before an object is destroyed. Finaly: The finally block is used in exception handling to ensure that a block of code is executed regardless of whether an exception is thrown or not. It's typically used in combination with try and catch blocks. 
+13. Difference in Method overloading and method overiding? 
+ans: Method overloading is the process of creating multiple methods in the same class with the same name but different parameter. method overiding :The method which is inherit from parent class but it modify by child class. 
+14. Git commands? 
+ans: git init:Initialize a new Git repository in the current directory. git clone [repository_url]:Clone (download) a remote repository to your local machine. git add [file(s)]:Stage changes for commit. You can specify specific files or use . to stage all changes. git commit -m "commit message":Commit staged changes with a descriptive message. git status:View the status of your working directory and see which files are staged or modified. git diff:View the differences between your working directory and the last commit. git log:View the commit history of the repository. git pull [remote] [branch]:Fetch changes from a remote repository and merge them into your current branch. git push [remote] [branch]:Push your local commits to a remote repository. git branch:List all branches in the repository. git checkout [branch]:Switch to a different branch. git merge [branch]:Merge changes from another branch into the current branch. and etc.
+15. How to commit a project to git? 
+ans: using command git commit -m "commit message" 
+16. Top cloud execution platform for selenium? 
+nas: Sauce Labs,BrowserStack,CrossBrowserTesting,LambdaTest,Applitools,TestingBot,Kobiton.
+17. Tools and browser used for selenium? 
+ans: selenium components are Selenium WebDriver,Selenium IDEand Selenium Grid Browesers: Google Chrome,Mozilla Firefox,Microsoft Edge,Safari,Opera,Internet Explorer. 
+18. Types of wait in selenium? 
+ans: implicit:Implicit waits set a default maximum amount of time for the WebDriver to wait for an element to be present or become clickable. If the element is not found within the specified time, the WebDriver will throw an exception explicit wait and fluent wait. explicit wait: Explicit waits are used for specific elements and conditions You can tell the WebDriver to wait until a certain condition is met before proceeding. Fluent Waits: Fluent waits are a specialized type of explicit wait that allow you to set the polling interval and specify the conditions that must be satisfied. 
+19. Problems that you encountered while creating automation test scripts.
+ans: Dynamic Locators,Synchronization Issues etc. 
+20. How to handle dynamic xPath? 
+ans: you can habdle dynamic xpath by Using Stable Attributes,Use Relative XPath,Use XPath Axes and Use Logical Operators etc. 
+21. What is actions class?
+ans: The Actions class in Selenium is a feature that provides a way to perform advanced user interactions with web applications, including simulating complex user interactions like drag-and-drop, keyboard actions, mouse hover, and more. 22. How to perform click events in selenium? ans: In Selenium, you can perform click events on web elements using the click() method provided by the WebElement class. 
+23. What are frames in selenium and how to switch to different frames? 
+ans: Frames (also known as iframes or inline frames) are HTML elements that allow you to embed a separate HTML document within the current document. Project related questions, regarding API testing and UI automation(tools used). 
+24. What version of selenium are you using?
+
+
+
+25.How many bugs u raised?
+
+26.How much time it takes to run your automation scripts?
+ans. minimum script is 14min and maximum script is 58 min.
+27.How many automation test cases have u written and how many are there in you project?
+ans. I my project total 570 testcases are there, I have automated 78 testcases
+
+28.How often u run Regression testing?
+
+ans. we are executing weekely once regression
+
+29.When a test fail where to find defect (extent reports concepts)
+ans. 
+30.What operations done in Jenkins
+ans. jenkins will do CI/CD 
+When do u release to production(daily, weekly or at end of sprint)
