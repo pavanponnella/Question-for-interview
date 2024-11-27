@@ -1,5 +1,0 @@
-1.Why is the Web API important? 
-2.What is Web API and why we use it ? 
-3.What are the main return types supported in Web API? 
-4.Status code in Api automation.
-
